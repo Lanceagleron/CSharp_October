@@ -1,0 +1,15 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\bin\Debug\net6.0\csharp_demo.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\bin\Debug\net6.0\csharp_demo.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\bin\Debug\net6.0\csharp_demo.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\bin\Debug\net6.0\csharp_demo.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\bin\Debug\net6.0\csharp_demo.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\refint\csharp_demo.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\csharp_demo.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\csharp_demo\obj\Debug\net6.0\ref\csharp_demo.dll
