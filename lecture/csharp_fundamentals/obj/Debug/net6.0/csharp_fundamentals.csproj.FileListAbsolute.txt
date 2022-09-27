@@ -1,0 +1,15 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\bin\Debug\net6.0\csharp_fundamentals.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\bin\Debug\net6.0\csharp_fundamentals.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\bin\Debug\net6.0\csharp_fundamentals.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\bin\Debug\net6.0\csharp_fundamentals.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\bin\Debug\net6.0\csharp_fundamentals.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\refint\csharp_fundamentals.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\csharp_fundamentals.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\csharp_fundamentals\obj\Debug\net6.0\ref\csharp_fundamentals.dll
