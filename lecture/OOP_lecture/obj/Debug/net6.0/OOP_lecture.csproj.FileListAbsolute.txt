@@ -1,0 +1,15 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\bin\Debug\net6.0\OOP_lecture.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\bin\Debug\net6.0\OOP_lecture.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\bin\Debug\net6.0\OOP_lecture.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\bin\Debug\net6.0\OOP_lecture.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\bin\Debug\net6.0\OOP_lecture.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\refint\OOP_lecture.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\OOP_lecture.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\OOP_lecture\obj\Debug\net6.0\ref\OOP_lecture.dll

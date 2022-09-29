@@ -1,0 +1,15 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\bin\Debug\net6.0\WizardNinjaSamurai.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\refint\WizardNinjaSamurai.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\WizardNinjaSamurai.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\WizardNinjaSamurai\obj\Debug\net6.0\ref\WizardNinjaSamurai.dll

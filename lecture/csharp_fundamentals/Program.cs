@@ -185,3 +185,44 @@ foreach (var entry in profile)
 {
     Console.WriteLine(entry.Key + " - " + entry.Value);
 }
+
+//function
+static void SayHello()
+{
+    Console.WriteLine("Hello how are you doing today?");
+}
+SayHello();
+
+Console.WriteLine("**************");
+//function parameters
+
+static void SayHello2(string firstName)
+{
+    Console.WriteLine($"Hello, {firstName}, how are you doing today?");
+}
+
+SayHello2("Andrew");
+
+
+Console.WriteLine("**************");
+
+//function with default parameter value
+
+static void SayHello3(string firstName = "buddy")
+{
+    Console.WriteLine($"Hey {firstName}");
+}
+// We can call it without providing any arguments and the default value will be used...
+SayHello3();
+// ...or we can call it with an argument and that argument's value will be used
+SayHello3("Yoda");
+
+Console.WriteLine("**************");
+
+static string SayHello4(string firstName = "buddy")
+{
+    return $"Hey {firstName}";
+}
+string greeting;
+greeting = SayHello4();
+Console.WriteLine(greeting);
