@@ -8,13 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC_lecture
 build_property.RootNamespace = MVC_lecture
-build_property.ProjectDir = c:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\
+build_property.ProjectDir = C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture
+build_property.MSBuildProjectDirectory = C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/lance/OneDrive/Documents/Coding_Dojo/CSharp_October/lecture/MVC lecture/Views/Home/index.cshtml]
+[C:/Users/lance/OneDrive/Documents/Coding_Dojo/CSharp_October/lecture/MVC lecture/Views/Home/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lance/OneDrive/Documents/Coding_Dojo/CSharp_October/lecture/MVC lecture/Views/Home/Videos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRlb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

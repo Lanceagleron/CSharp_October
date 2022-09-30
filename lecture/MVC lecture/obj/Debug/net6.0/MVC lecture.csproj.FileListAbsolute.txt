@@ -1,0 +1,24 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\appsettings.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\MVC lecture.staticwebassets.runtime.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\MVC lecture.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\MVC lecture.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\MVC lecture.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\MVC lecture.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\bin\Debug\net6.0\MVC lecture.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.RazorAssemblyInfo.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.RazorAssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\scopedcss\bundle\MVC lecture.styles.css
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\refint\MVC lecture.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\MVC lecture.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\MVC lecture\obj\Debug\net6.0\ref\MVC lecture.dll
