@@ -1,7 +1,7 @@
 ﻿// Create an empty array that will hold 10 integer values.
     int[] array = new int[10];
 
-static int[] RandomArray(int[] arr)
+static void RandomArray(int[] arr)
 {
     
     // Loop through the array and assign each index a random integer value between 5 and 25.
@@ -11,6 +11,7 @@ static int[] RandomArray(int[] arr)
         int randomNum = rand.Next(5, 25);
         int[] newArray = new int[] { randomNum };
         
+        Console.WriteLine(newArray[0]); 
     }
     
 }
@@ -45,6 +46,5 @@ static int findMax(int[] arr)
         return max;
     }
 
-RandomArray();
+RandomArray(array);
 
-findMin(RandomArray());

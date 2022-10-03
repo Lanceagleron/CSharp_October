@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\assignments\\DojoSurvey\\DojoSurvey.csproj",
+  "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\MVC lecture.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,16 +16295,31 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "DojoSurvey",
+  "RootNamespace": "MVC_lecture",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\assignments\\DojoSurvey\\Views\\Home\\GotInfo.cshtml",
-      "TargetPath": "Views\\Home\\GotInfo.cshtml",
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\Views\\User\\Success.cshtml",
+      "TargetPath": "Views\\User\\Success.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\assignments\\DojoSurvey\\Views\\Home\\index.cshtml",
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\Views\\User\\Register.cshtml",
+      "TargetPath": "Views\\User\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\Views\\Home\\index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\Views\\Home\\Videos.cshtml",
+      "TargetPath": "Views\\Home\\Videos.cshtml",
       "FileKind": "mvc"
     }
   ],

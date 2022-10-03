@@ -1,0 +1,23 @@
+@* Specify what kind of data is being passed into this view via the view model *@
+@using MVClecture.Models
+@model VideosView
+
+
+<h1>@Model.Title</h1>
+
+<a href="/">Home</a>
+<br>
+
+@foreach (string VideoId in Model.youtubeVideoIds)
+{
+    <iframe
+    width="560"
+    height="400"
+    src="https://www.youtube.com/embed/@VideoId"
+    title="Youtube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    ></iframe>
+}
+

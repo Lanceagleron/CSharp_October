@@ -1,0 +1,22 @@
+@model User
+
+<head>
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Dojo Survey</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="surveybox">
+            <h2>Submitted info:</h2>
+            <p>Name:</p>
+            <p class="answer">@Model.username</p>
+            <p>Dojo Location:</p>
+            <p class="answer">@Model.location</p>
+            <p>Favorite Language:</p> 
+            <p class="answer">@Model.language</p>
+            <p>Comment:</p> 
+            <p class="answer">"@Model.comment"</p>
+        </div>
+    </div>
+</body>

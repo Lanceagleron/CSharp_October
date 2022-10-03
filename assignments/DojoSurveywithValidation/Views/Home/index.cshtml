@@ -1,0 +1,55 @@
+@model User
+
+<head>
+    <title>Dojo Survey</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="surveybox">
+            <form asp-controller="Home" asp-action="Register" method="POST">
+                <div id="something">
+                    <label asp-for="username">User Name:</label>
+                    <span asp-validation-for="username"></span>
+                    <input asp-for="username" type="text">
+                </div>
+
+                <div id="something">
+                    <label asp-for="location">Dojo Location:</label>
+                    <span asp-validation-for="location"></span>
+                    <select asp-for="location">
+                        <option selected disabled value="">--Select Location--</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Seatle">Seatle</option>
+                        <option value="San Jose">San Jose</option>
+                        <option value="Burbank">Burbank</option>
+                        <option value="Online">Online</option>
+                    </select>
+                </div>
+                <div id="something">
+                    <label asp-for="language">Favorite Language:</label>
+                    <span asp-validation-for="language"></span>
+                    <select asp-for="language">
+                        <option selected disabled value="">--Select Language--</option>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="C#">C#</option>
+                        <option value="CSS">CSS</option>
+                        <option value="HTML">HTML</option>
+                    </select>
+                </div>
+                <div id="something2">
+                    <label asp-for="comment">Comments:</label>
+                    <span asp-validation-for="comment"></span>
+                    <br>
+                    <textarea asp-for="comment" cols="37" rows="10" placeholder="Write a comment.."></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

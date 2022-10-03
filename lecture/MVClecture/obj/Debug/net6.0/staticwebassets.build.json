@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "KXX8d+9LAYB5SBZJe5ujYfyTsIKd+ZH6hF9WV1wesMU=",
+  "Source": "MVC lecture",
+  "BasePath": "_content/MVC lecture",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVC lecture\\wwwroot",
+      "Source": "MVC lecture",
+      "ContentRoot": "C:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\wwwroot\\",
+      "BasePath": "_content/MVC lecture",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\wwwroot\\css\\style.css",
+      "SourceId": "MVC lecture",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\MVClecture\\wwwroot\\",
+      "BasePath": "_content/MVC lecture",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
