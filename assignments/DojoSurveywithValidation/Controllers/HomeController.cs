@@ -24,4 +24,3 @@ public class HomeController : Controller
         return View("Index");
     }
 }
-    

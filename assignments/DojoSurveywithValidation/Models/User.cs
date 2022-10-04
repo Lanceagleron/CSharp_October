@@ -7,18 +7,18 @@ public class User
     [Required(ErrorMessage = "is required.")]
     [MinLength(2, ErrorMessage = "must be atleast 2 characters.")]
     [Display(Name ="User Name")]
-    public string username { get; set; }
+    public string Username { get; set; }
 
     [Required(ErrorMessage = "is required.")]
     [Display(Name ="Dojo Location")]
-    public string location { get; set; }
+    public string Location { get; set; }
     
     [Required(ErrorMessage = "is required.")]
     [Display(Name ="Favorite Language")]
-    public string language { get; set; }
+    public string Language { get; set; }
     
-    [Required(ErrorMessage = "is required.")]
+    [MinLength(20, ErrorMessage = "must be atleast 20 characters.")]
     [Display(Name ="Comment")]
-    public string comment { get; set; }
-
+    public string? Comment { get; set; }
+    //string? will pass either null or string
 }
