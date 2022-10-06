@@ -10,41 +10,52 @@ static void RandomArray(int[] arr)
         Random rand = new Random();
         int randomNum = rand.Next(5, 25);
         int[] newArray = new int[] { randomNum };
-        
-        Console.WriteLine(newArray[0]); 
+        foreach (int num in newArray)
+        {
+            Console.WriteLine(num);
+        }
+
+
+
+        // Array.Sort(newArray);
+        // if (newArray.Length > 0)
+        // {
+        //     Console.WriteLine("Minimum number is " + newArray[0]);
+        //     Console.WriteLine("Maximum number is " + newArray[newArray.Length - 1]);
+        // }
     }
     
 }
 
-static int findMin(int[] arr)
-    {
-        if (arr.Length == 0) {
-            throw new Exception("Array is empty");
-        }
+// static int findMin(int[] arr)
+//     {
+//         if (arr.Length == 0) {
+//             throw new Exception("Array is empty");
+//         }
  
-        int min = int.MaxValue;
-        foreach (var i in arr) {
-            if (i < min) {
-                min= i;
-            }
-        }
-        return min;
-    }
+//         int min = int.MaxValue;
+//         foreach (var i in arr) {
+//             if (i < min) {
+//                 min= i;
+//             }
+//         }
+//         return min;
+//     }
 
-static int findMax(int[] arr)
-    {
-        if (arr.Length == 0) {
-            throw new Exception("Array is empty");
-        }
+// static int findMax(int[] arr)
+//     {
+//         if (arr.Length == 0) {
+//             throw new Exception("Array is empty");
+//         }
  
-        int max = int.MinValue;
-        foreach (var i in arr) {
-            if (i > max) {
-                max = i;
-            }
-        }
-        return max;
-    }
+//         int max = int.MinValue;
+//         foreach (var i in arr) {
+//             if (i > max) {
+//                 max = i;
+//             }
+//         }
+//         return max;
+//     }
 
 RandomArray(array);
 
