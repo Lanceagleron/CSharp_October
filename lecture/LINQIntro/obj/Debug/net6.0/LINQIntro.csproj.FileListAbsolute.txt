@@ -1,0 +1,15 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\bin\Debug\net6.0\LINQIntro.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\bin\Debug\net6.0\LINQIntro.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\bin\Debug\net6.0\LINQIntro.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\bin\Debug\net6.0\LINQIntro.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\bin\Debug\net6.0\LINQIntro.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\refint\LINQIntro.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\LINQIntro.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\lecture\LINQIntro\obj\Debug\net6.0\ref\LINQIntro.dll
