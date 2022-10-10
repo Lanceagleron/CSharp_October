@@ -1,0 +1,15 @@
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.exe
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.deps.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.runtimeconfig.json
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\bin\Debug\net6.0\LINQEruption.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.csproj.AssemblyReference.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.AssemblyInfoInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.AssemblyInfo.cs
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.csproj.CoreCompileInputs.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\refint\LINQEruption.dll
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.pdb
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\LINQEruption.genruntimeconfig.cache
+C:\Users\lance\OneDrive\Documents\Coding_Dojo\CSharp_October\assignments\LINQEruption\obj\Debug\net6.0\ref\LINQEruption.dll

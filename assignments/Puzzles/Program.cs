@@ -1,61 +1,96 @@
-﻿// Create an empty array that will hold 10 integer values.
-    int[] array = new int[10];
-
-static void RandomArray(int[] arr)
+﻿static void randomArray()
 {
+    Random randNum = new Random();
+    int[] randomArray = new int[10];
+    int sum = randomArray[0];
     
-    // Loop through the array and assign each index a random integer value between 5 and 25.
-    for(int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < randomArray.Length; i++)
     {
-        Random rand = new Random();
-        int randomNum = rand.Next(5, 25);
-        int[] newArray = new int[] { randomNum };
-        foreach (int num in newArray)
+        randomArray[i] = randNum.Next(5, 26);
+        sum += randomArray[i];
+    }
+
+    foreach(int num in randomArray)
         {
             Console.WriteLine(num);
         }
 
-
-
-        // Array.Sort(newArray);
-        // if (newArray.Length > 0)
-        // {
-        //     Console.WriteLine("Minimum number is " + newArray[0]);
-        //     Console.WriteLine("Maximum number is " + newArray[newArray.Length - 1]);
-        // }
+    int min = randomArray[0];
+    int max = randomArray[0];
+    for (int j = 0; j < 10; j++)
+    {
+        if (randomArray[j] < min)
+        {
+            min = randomArray[j];
+        }
+        if (randomArray[j] > max)
+        {
+            max = randomArray[j];
+        }
     }
-    
+    Console.WriteLine("[***********]");
+    Console.WriteLine(min);
+    Console.WriteLine("[***********]");
+    Console.WriteLine(max);
+    Console.WriteLine("[***********]");
+    Console.WriteLine(sum);
+    Console.WriteLine("[***********]");
 }
 
-// static int findMin(int[] arr)
-//     {
-//         if (arr.Length == 0) {
-//             throw new Exception("Array is empty");
-//         }
- 
-//         int min = int.MaxValue;
-//         foreach (var i in arr) {
-//             if (i < min) {
-//                 min= i;
-//             }
-//         }
-//         return min;
-//     }
+randomArray();
+Console.WriteLine("--------------------------------------------------------");
 
-// static int findMax(int[] arr)
-//     {
-//         if (arr.Length == 0) {
-//             throw new Exception("Array is empty");
-//         }
- 
-//         int max = int.MinValue;
-//         foreach (var i in arr) {
-//             if (i > max) {
-//                 max = i;
-//             }
-//         }
-//         return max;
-//     }
+static void CoinFlip()
+{
+    Random rand = new Random();
+    string postResults = "";
+    int flip = rand.Next(1, 3);
+    {
+        if (flip == 1)
+        {
+            postResults = "heads";
+        }
+        if (flip == 2)
+        {
+            postResults = "tails";
+        }
+    }
+    Console.WriteLine(postResults);
+}
 
-RandomArray(array);
+CoinFlip();
+Console.WriteLine("--------------------------------------------------------");
 
+static void Names()
+{
+    string[] nameArray = { "Todd", "Tiffany", "Charlie", "Geneva", "Sydney" };
+    Random rand = new Random();
+    String temp = "";
+    for (int i = 0; i < nameArray.Length; i++)
+    {
+
+        int index = rand.Next(i, nameArray.Length);
+        temp = nameArray[i];
+        nameArray[i] = nameArray[index];
+        nameArray[index] = temp;
+        Console.WriteLine("Index {0} has {1}", i, nameArray[i]);
+
+    }
+    List<string> longNamesList = new List<string>();
+    for (int i = 0; i < nameArray.Length; i++)
+    {
+        if (nameArray[i].Length > 5)
+        {
+            longNamesList.Add(nameArray[i]);
+        }
+    }
+    string[] longNames = longNamesList.ToArray();
+    for (int i = 0; i < longNames.Length; ++i)
+    {
+        System.Console.WriteLine(longNames[i]);
+    }
+    Console.WriteLine(longNames);
+}
+
+Names();
+Console.WriteLine("--------------------------------------------------------");
