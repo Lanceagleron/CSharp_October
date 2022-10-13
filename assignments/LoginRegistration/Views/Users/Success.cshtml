@@ -1,0 +1,11 @@
+
+
+<form asp-controller="Users" asp-action="Logout" method="POST">
+    <button class="btn btn-danger">
+        Logout
+    </button>
+</form>
+<p>Welcome! @Context.Session.GetString("Email")</p>
+
+
+<h1>Success!</h1>

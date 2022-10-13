@@ -1,10 +1,27 @@
 using EntityFrameworkLecture.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 
 public class PostsController : Controller
 {
+
+    private int? uid
+    {
+        get
+        {
+            return HttpContext.Session.GetInt32("UUID");
+        }
+    }
+
+    private bool loggedIn
+    {
+        get
+        {
+            return uid != null;
+        }
+    }
+
     private ForumContext db;
     public PostsController(ForumContext context)
     {
@@ -14,12 +31,20 @@ public class PostsController : Controller
     [HttpGet("/posts/new")]
     public IActionResult New()
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         return View("New");
     }
 
     [HttpPost("/posts/create")]
     public IActionResult Create(Post newPost)
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         if (!ModelState.IsValid)
         {
             // send back to the page w/ the form so error message are displayed
@@ -51,6 +76,10 @@ public class PostsController : Controller
     [HttpGet("/posts")]
     public IActionResult All()
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         List<Post> allPosts = db.Posts.ToList();
 
         return View("All", allPosts);
@@ -59,6 +88,10 @@ public class PostsController : Controller
      [HttpGet("/posts/{onePostId}")]
     public IActionResult GetOnePost(int onePostId)
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         Post? post = db.Posts.FirstOrDefault(p => p.PostId == onePostId);
 
         // In case user manually types in an invalid ID in the url
@@ -73,6 +106,10 @@ public class PostsController : Controller
     [HttpPost("/posts/{deletedPostId}/delete")]
     public IActionResult DeletePost(int deletedPostId)
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         Post? post = db.Posts.FirstOrDefault(p => p.PostId == deletedPostId);
 
         if (post != null)
@@ -86,6 +123,10 @@ public class PostsController : Controller
     [HttpGet("/posts/{postId}/edit")]
     public IActionResult Edit(int postId)
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         Post? post = db.Posts.FirstOrDefault(p => p.PostId == postId);
 
         if(post == null)
@@ -99,6 +140,10 @@ public class PostsController : Controller
     [HttpPost("/posts/{postId}/update")]
     public IActionResult Update(Post editedPost, int postId)
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         if(ModelState.IsValid == false)
         {
             return Edit(postId);
