@@ -79,7 +79,7 @@ public class UsersController : Controller
     
     if(dbUser == null)
         {
-            ModelState.AddModelError("LoginEmail", "not found");
+            ModelState.AddModelError("LoginEmail", "/ Password don't match");
             return Index();
         }
         PasswordHasher<LoginUser> passwordHasher = new PasswordHasher<LoginUser>();
@@ -87,7 +87,7 @@ public class UsersController : Controller
         
         if (pwCompareResult == 0)
         {
-            ModelState.AddModelError("LoginPassword", "invalid password");
+            ModelState.AddModelError("LoginPassword", "/ Password don't match");
             return Index();
         }
 
