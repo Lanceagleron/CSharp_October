@@ -87,7 +87,7 @@ public class UsersController : Controller
         
         if (pwCompareResult == 0)
         {
-            ModelState.AddModelError("LoginPassword", "/ Password don't match");
+            ModelState.AddModelError("LoginEmail", "/ Password don't match");
             return Index();
         }
 
