@@ -35,6 +35,10 @@ public class UsersController : Controller
     [HttpGet("/success")]
     public IActionResult Success()
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         return View("Success");
     }
 
