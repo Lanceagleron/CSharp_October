@@ -1,8 +1,7 @@
 using EntityFrameworkLecture.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-
-
+using Microsoft.EntityFrameworkCore;
 
 public class UsersController : Controller
 {
@@ -109,5 +108,23 @@ public class UsersController : Controller
     {
         HttpContext.Session.Clear();
         return RedirectToAction("Index");
+    }
+
+    //if you want to view a profile for ANY user instead of currently logged in
+    // pass userID through route url & method parameter & then into LINQ query
+    [HttpGet("/profile")]
+    public IActionResult Profile()
+    {
+        if(!loggedIn)
+        {
+            return RedirectToAction("Index");
+        }
+        User? dbUser = db.Users.Include(u => u.UserPost).FirstOrDefault(u => u.UserId == uid);
+
+        if (dbUser == null)
+        {
+            return RedirectToAction("Index");
+        }
+        return View("Profile", dbUser);
     }
 }

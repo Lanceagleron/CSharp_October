@@ -1,18 +1,36 @@
 @model List<Post>
 
+
 @Context.Session.GetInt32("UUID")
 @Context.Session.GetString("Username")
 
 
 <a href="/posts/new">Create a Post</a>
+<a href="/profile">View my Profile</a>
 
 <h2 class="text-center">All Posts</h2>
 <hr/>
 
+
+@* 
+This can still be done w/o a partial by
+1)Make the page @model Post and then
+put the List<Post> into ViewBag
+2)OR creating a wrapper class for THIS PAGE's model that contains 2 properties: a List<Post> & a single Post
+ *@
+@{
+  Post newPost = new Post();
+}
+<partial   name="_New" model="@newPost"></partial>
+
 @foreach (Post post in Model) {
   <div class="card shadow rounded mx-auto w-75 mb-3">
     <h4 class="card-title text-center bg-dark text-light py-2 rounded-top">
-      @post.Topic
+      @if (@post.Author != null){
+        <span>@post.Topic: created by @post.Author.Username</span>
+      }
+      
+
     </h4>
 
     <div class="card-body">
@@ -29,4 +47,5 @@
     </a>
     <img src="@post.ImgUrl" alt="related to post." class="card-img-bottom" />
     </div>
+
 }

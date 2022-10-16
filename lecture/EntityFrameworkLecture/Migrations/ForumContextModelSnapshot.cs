@@ -43,7 +43,12 @@ namespace EntityFrameworkLecture.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("PostId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
                 });
@@ -71,6 +76,22 @@ namespace EntityFrameworkLecture.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("EntityFrameworkLecture.Models.Post", b =>
+                {
+                    b.HasOne("EntityFrameworkLecture.Models.User", "Author")
+                        .WithMany("UserPost")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Author");
+                });
+
+            modelBuilder.Entity("EntityFrameworkLecture.Models.User", b =>
+                {
+                    b.Navigation("UserPost");
                 });
 #pragma warning restore 612, 618
         }

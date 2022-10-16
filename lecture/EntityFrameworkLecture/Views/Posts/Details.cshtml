@@ -3,16 +3,22 @@
 <a href="/posts/new">Create a Post</a>
 <a href="/posts">view all posts</a>
 
-<h2>@Model.Topic</h2>
+@if (@Model.Author != null)
+{
+<h2>@Model.Topic @Model.Author.Username</h2>
+}
 <div>@Model.Body</div>
 @if(Model.ImgUrl != null)
 {
     <div>@Model.ImgUrl</div>
 }
 
-<a href="/posts/@Model.PostId/edit">Edit</a>
+@* conditionally show edit/delete id post was creadter by logged in user *@
+@if(Model.UserId == Context.Session.GetInt32("UUID"))
+{
+    <a href="/posts/@Model.PostId/edit">Edit</a>
 
-<form 
+    <form 
     asp-controller="Posts"
     asp-action="DeletePost"
     asp-route-deletedPostId="@Model.PostId"
@@ -20,4 +26,6 @@
     >
     <button class="btn-outline-danger">Delete</button>
 </form>
+}
+
 @* <a href="/posts/@Model.PostId/delete"> Delete </a> *@

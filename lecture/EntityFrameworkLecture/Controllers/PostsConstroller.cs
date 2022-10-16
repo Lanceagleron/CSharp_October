@@ -1,7 +1,6 @@
 using EntityFrameworkLecture.Models;
 using Microsoft.AspNetCore.Mvc;
-
-
+using Microsoft.EntityFrameworkCore;
 
 public class PostsController : Controller
 {
@@ -41,7 +40,7 @@ public class PostsController : Controller
     [HttpPost("/posts/create")]
     public IActionResult Create(Post newPost)
     {
-        if (!loggedIn)
+        if (!loggedIn || uid == null)//"uid == null" add this to remove the error from "(int)uid;
         {
             return RedirectToAction("Index", "Users");
         }
@@ -54,6 +53,9 @@ public class PostsController : Controller
                 // View("New");
         }
         
+        //attatching currently logged in user's ID to the newPost
+        newPost.UserId = (int)uid;
+
         Console.WriteLine(newPost.PostId);
         // ModelState Is valid
         db.Posts.Add(newPost);
@@ -76,30 +78,33 @@ public class PostsController : Controller
     [HttpGet("/posts")]
     public IActionResult All()
     {
-        if (!loggedIn)
+        if (!loggedIn )
         {
             return RedirectToAction("Index", "Users");
         }
-        List<Post> allPosts = db.Posts.ToList();
 
+        //get all posts, and include info for each individual post in addition to the foreign key
+        List<Post> allPosts = db.Posts.Include(p => p.Author).ToList();
+            //^ what you have to write in SQL
+        // SELECT * FROM posts JOIN users on post.UserId = user.UserId
+        
         return View("All", allPosts);
     }
 
      [HttpGet("/posts/{onePostId}")]
     public IActionResult GetOnePost(int onePostId)
     {
-        if (!loggedIn)
+        if (!loggedIn )
         {
             return RedirectToAction("Index", "Users");
         }
-        Post? post = db.Posts.FirstOrDefault(p => p.PostId == onePostId);
+        Post? post = db.Posts.Include(p => p.Author).FirstOrDefault(p => p.PostId == onePostId);
 
         // In case user manually types in an invalid ID in the url
         if (post == null)
         {
             return RedirectToAction("All");
         }
-
         return View("Details", post);
     }
 
@@ -112,7 +117,7 @@ public class PostsController : Controller
         }
         Post? post = db.Posts.FirstOrDefault(p => p.PostId == deletedPostId);
 
-        if (post != null)
+        if (post != null && post.UserId == uid)
         {
             db.Posts.Remove(post);
             db.SaveChanges();
@@ -127,13 +132,12 @@ public class PostsController : Controller
         {
             return RedirectToAction("Index", "Users");
         }
-        Post? post = db.Posts.FirstOrDefault(p => p.PostId == postId);
+        Post? post = db.Posts.FirstOrDefault(p => p.PostId == postId );
 
-        if(post == null)
+        if(post == null || post.UserId != uid)
         {
             return RedirectToAction("All");
         }
-
         return View("Edit", post);
     }
 
@@ -150,7 +154,7 @@ public class PostsController : Controller
         }
         Post? dbPost = db.Posts.FirstOrDefault(p => p.PostId == postId);
 
-        if (dbPost == null)
+        if (dbPost == null || dbPost.UserId != uid)
         {
             return RedirectToAction("All");
         }

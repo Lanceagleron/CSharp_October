@@ -16318,11 +16318,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\EntityFrameworkLecture\\Views\\Posts\\New.cshtml",
-      "TargetPath": "Views\\Posts\\New.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\EntityFrameworkLecture\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16353,8 +16348,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\EntityFrameworkLecture\\Views\\Users\\Profile.cshtml",
+      "TargetPath": "Views\\Users\\Profile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\EntityFrameworkLecture\\Views\\Posts\\Details.cshtml",
       "TargetPath": "Views\\Posts\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lance\\OneDrive\\Documents\\Coding_Dojo\\CSharp_October\\lecture\\EntityFrameworkLecture\\Views\\Posts\\_New.cshtml",
+      "TargetPath": "Views\\Posts\\_New.cshtml",
       "FileKind": "mvc"
     },
     {
