@@ -10,8 +10,7 @@
 
 <h1>Yum! Check out our tasty dishes!</h1>
 
-@foreach (Dish d in Model)
-{
+
     <table class="table table-striped">
         <thead>
             <tr>
@@ -21,12 +20,14 @@
                 <th>Calories</th>
             </tr>
     </thead>
-    
+    @foreach (Dish d in Model)
+    {
         <tbody>
             <td>@d.Name</td>
             <td>@d.Chef.FirstName @d.Chef.LastName</td>
             <td>@d.Tastiness</td>
             <td>@d.Calories</td>
         </tbody>
+    
+    }
     </table>
-}

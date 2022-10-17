@@ -46,7 +46,7 @@ public class DishesController : Controller
         
         db.Dishes.Add(newDish);
         db.SaveChanges();
-        return RedirectToAction("AllDish");
+        return RedirectToAction("GetDishes");
     }
 
 }

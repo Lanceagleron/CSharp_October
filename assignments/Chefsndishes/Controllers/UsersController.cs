@@ -17,6 +17,11 @@ public class UsersController : Controller
     public IActionResult Index()
     {
         List<User> allUser = db.Users.ToList();
+        foreach (var oneChef in allUser)
+        {
+            List<Dish> allDishes = db.Dishes.Where( d => d.UserId == oneChef.UserId).ToList();
+            oneChef.UserDish = allDishes;
+        }
         return View("Index", allUser);
     }
 

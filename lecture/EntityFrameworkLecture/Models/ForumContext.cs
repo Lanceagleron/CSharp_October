@@ -13,4 +13,6 @@ public class ForumContext : DbContext
     public DbSet<Post> Posts { get; set; } 
 
     public DbSet<User> Users { get; set; } 
+
+    public DbSet<UserPostLike> UserPostLikes { get; set; }
 }

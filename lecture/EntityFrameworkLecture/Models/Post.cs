@@ -36,4 +36,8 @@ public class Post
     **********************************************************************/
     public int UserId { get; set; }// this foreign key MUST match primary property name
     public User? Author { get; set; } // the ONE user related to each post
+
+
+    //Many to Many 1 post can be liked by many Users
+    public List<UserPostLike> PostLikes { get; set; } = new List<UserPostLike>();
 }

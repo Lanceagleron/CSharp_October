@@ -2,7 +2,7 @@
 
 
 <div class="text-center">
-<h3><a href="/">Chefs</a> |
+<h3><a href="/">Chefs</a> | 
 <a href="/chefs/new">Add a Chef</a> | 
 <a href="/dishes">Dishes</a> | 
 <a href="/dishes/new">Add a Dish</a></h3>
@@ -10,21 +10,21 @@
 
 <h1>Check out our roster of chefs!</h1>
 
-@foreach (User chef in Model)
-{
+
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Age</th>
-                @* <th># of Dishes</th> *@
+                <th># of Dishes</th>
             </tr>
     </thead>
-    
+    @foreach (User chef in Model)
+{
         <tbody>
             <td>@chef.FirstName @chef.LastName</td>
-            <td>@chef.DoB</td>
-            @* <td></td> *@
+            <td>@chef.GetAge()</td>
+            <td>@chef.UserDish.Count()</td>
         </tbody>
-    </table>
 }
+</table>

@@ -39,4 +39,7 @@ public class User
         MUST use .Include for the nav prop data to be included via a SQL JOIN.
     **********************************************************************/
     public List<Post> UserPost { get; set; } = new List<Post>();
+
+    //Many to many 1 User can like many posts
+    public List<UserPostLike> UserLikes { get; set; } = new List<UserPostLike>();
 }

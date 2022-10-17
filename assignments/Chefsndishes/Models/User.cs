@@ -30,4 +30,11 @@ public class User
 
     public List<Dish> UserDish { get; set; } = new List<Dish>();
 
+    public int GetAge()
+    {
+        DateTime CurrentYear = DateTime.Now;
+        int Age = CurrentYear.Year - DoB.Year;
+
+        return Age;
+    }
 }
