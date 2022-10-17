@@ -13,6 +13,16 @@
     <div>@Model.ImgUrl</div>
 }
 
+<h3>This post was liked by:</h3>
+@foreach (UserPostLike like in Model.PostLikes)
+{
+    if(like.User != null)
+    {
+        <p>@like.User.Username</p>
+    }
+    
+}
+
 @* conditionally show edit/delete id post was creadter by logged in user *@
 @if(Model.UserId == Context.Session.GetInt32("UUID"))
 {

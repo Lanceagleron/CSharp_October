@@ -84,7 +84,12 @@ public class PostsController : Controller
         }
 
         //get all posts, and include info for each individual post in addition to the foreign key
-        List<Post> allPosts = db.Posts.Include(p => p.Author).ToList();
+        List<Post> allPosts = db.Posts
+        //.include always gives you the entity from the queried table so both
+        //.include statements refer to Post
+        .Include(p => p.Author)
+        .Include(p => p.PostLikes)
+        .ToList();
             //^ what you have to write in SQL
         // SELECT * FROM posts JOIN users on post.UserId = user.UserId
         
@@ -98,7 +103,11 @@ public class PostsController : Controller
         {
             return RedirectToAction("Index", "Users");
         }
-        Post? post = db.Posts.Include(p => p.Author).FirstOrDefault(p => p.PostId == onePostId);
+        Post? post = db.Posts
+        .Include(p => p.Author)
+        .Include(p => p.PostLikes)
+            .ThenInclude(l => l.User)
+        .FirstOrDefault(p => p.PostId == onePostId);
 
         // In case user manually types in an invalid ID in the url
         if (post == null)
@@ -169,5 +178,35 @@ public class PostsController : Controller
 
         return Redirect($"/posts/{dbPost.PostId}");
         // return RedirectToAction("GetOnePost", new {postId = dbPost.PostId});
+    }
+
+    [HttpPost("/posts/{postId}/like")]
+    public IActionResult Like(int postId)
+    {
+        if(!loggedIn || uid == null)
+        {
+            return RedirectToAction("Index", "Users");
+        }
+
+        UserPostLike? existingLike = db.UserPostLikes
+            .FirstOrDefault(l => l.PostId == postId && l.UserId == (int)uid);
+
+        if (existingLike == null)
+        {
+            UserPostLike newLike = new UserPostLike()
+            {
+                UserId = (int)uid,
+                PostId = postId
+            };
+
+            db.UserPostLikes.Add(newLike);
+        }
+        else
+        {
+            db.UserPostLikes.Remove(existingLike);
+        }
+        
+        db.SaveChanges();
+        return RedirectToAction("All");
     }
 }
