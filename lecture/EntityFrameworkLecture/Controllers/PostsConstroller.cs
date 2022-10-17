@@ -96,7 +96,7 @@ public class PostsController : Controller
         return View("All", allPosts);
     }
 
-     [HttpGet("/posts/{onePostId}")]
+    [HttpGet("/posts/{onePostId}")]
     public IActionResult GetOnePost(int onePostId)
     {
         if (!loggedIn )

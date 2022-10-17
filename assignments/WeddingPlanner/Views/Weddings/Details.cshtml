@@ -1,0 +1,19 @@
+@model Wedding
+
+<div class="text-center">
+<h3><a href="/weddings">Home</a> |
+<a href="/weddings/new">Plan a Wedding</a> | 
+
+<h1>@Model.WedderOne & @Model.WedderTwo's wedding</h1>
+
+<h4>@Model.Date</h4>
+
+<h6>Guests:</h6>
+@foreach (UserWeddingRsvp rsvp in Model.WeddingRsvps)
+{
+    if(rsvp.User != null)
+    {
+        <ol>@rsvp.User.FirstName @rsvp.User.LastName</ol>
+    }
+    
+}
