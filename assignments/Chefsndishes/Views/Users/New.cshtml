@@ -1,0 +1,42 @@
+@model User
+
+<div class="text-center">
+<h3><a href="/">Chefs</a> |
+<a href="/chefs/new">Add a Chef</a> | 
+<a href="/dishes">Dishes</a> | 
+<a href="/dishes/new">Add a Dish</a></h3>
+</div>
+
+
+
+<form asp-controller="Users" asp-action="AddChef" method="POST">
+    <div class="mb-3">
+        <label asp-for="FirstName"></label>
+        <span
+        asp-validation-for="FirstName"
+        class="text-danger font-weight-bold"
+        ></span>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="LastName"></label>
+        <span
+        asp-validation-for="LastName"
+        class="text-danger font-weight-bold"
+        ></span>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="DoB"></label>
+        <span
+        asp-validation-for="DoB"
+        class="text-danger font-weight-bold"
+        ></span>
+        <input class="form-control" asp-for="DoB" />
+    </div>
+    
+
+    <button class="btn btn-outline-primary">Add Chef</button>
+</form>

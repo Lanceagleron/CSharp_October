@@ -1,0 +1,59 @@
+@model Dish
+
+
+
+<div class="text-center">
+<h3><a href="/">Chefs</a> |
+<a href="/chefs/new">Add a Chef</a> | 
+<a href="/dishes">Dishes</a> | 
+<a href="/dishes/new">Add a Dish</a></h3>
+</div>
+
+<form asp-controller="Dishes" asp-action="AddDish" method="POST">
+    <div class="mb-3">
+        <label asp-for="UserId"></label>
+        <span asp-validation-for="UserId" class="text-danger font-weight-bold"></span>
+        <select asp-for="UserId">
+            <option selected disabled value="">--Select Chef--</option>
+            @foreach (var c in ViewBag.getallChef)
+            {
+                <option value="@c.UserId">@c.FirstName @c.LastName</option>
+            }
+            
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Name">Name of Dish</label>
+        <span asp-validation-for="Name" class="text-danger font-weight-bold"></span>
+        <input class="form-control" asp-for="Name"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Calories"># of Calories</label>
+        <span asp-validation-for="Calories" class="text-danger font-weight-bold"></span>
+        <input type="number" asp-for="Calories">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Tastiness"></label>
+        <span asp-validation-for="Tastiness" class="text-danger font-weight-bold"></span>
+        <select asp-for="Tastiness">
+            <option selected disabled value="">--Select Value--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description"></label>
+        <span asp-validation-for="Description" class="text-danger font-weight-bold"></span>
+        <br>
+        <textarea asp-for="Description" id="" cols="30" rows="10" placeholder="Write a Description.."></textarea>
+    </div>
+
+    <button class="btn btn-success">Submit</button>
+</form>
